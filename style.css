@@ -1,0 +1,44 @@
+body {
+    background-color: aquamarine;
+    text-align: center;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+link {
+    list-style: none;
+    font-family: fantasy;
+    float: right;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    color: black;
+}
+
+img {
+    width: 500px;
+    height: 400px;
+}
+html {
+    scroll-behavior: smooth;
+}
+.links hover{
+    font-size: 25px;
+    text-decoration: underline;
+}
+#menu{
+    position: fixed;
+    background:white;
+    width: 100%;
+    margin-top: 0px;
+    top:0px;
+    z-index: 10;
+}
+links{
+    font-size:20px;
+    display: inline;
+    padding-left: 33px;
+    padding-right: 25px;
+    font-family: fantasy;
+    
+}
